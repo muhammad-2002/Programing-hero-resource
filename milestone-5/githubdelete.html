@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>git hub delete seneario</title>
+  </head>
+  <body>
+    <h1 id="h1">This is Secrect Key</h1>
+    <input id="text" type="text" />
+    <button id="btn" disabled>button</button>
+    <script>
+      const text = document.getElementById("text");
+      const btn = document.getElementById("btn");
+      text.addEventListener("keyup", (event) => {
+        if (event.target.value === "delete") {
+          btn.removeAttribute("disabled");
+        } else {
+          btn.setAttribute("disabled", true);
+        }
+      });
+      btn.addEventListener("click", () => {
+        document.getElementById("h1").style.display = "none";
+        text.value = "";
+      });
+    </script>
+  </body>
+</html>

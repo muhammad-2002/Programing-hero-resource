@@ -1,0 +1,25 @@
+.couponBtn{
+    border-radius: 0px 5px 5px 0px !important;
+    
+}
+.coupon{
+    padding: 10px 0px ;
+    border-radius: 5px 0px 0px 5px  ;
+}
+
+.item1{ grid-area: item1 ;}
+.item2{ grid-area: item2 ;}
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'item1 item1 item1 item2';
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container{
+    display: grid;
+    grid-template-areas:
+    'item2 '
+    'item1';
+}
+}

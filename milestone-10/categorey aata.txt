@@ -1,0 +1,34 @@
+    // const data =[
+    //   {
+    //     "subcategory_name": "Landscape Painting",
+    //     "image_url": "https://img.freepik.com/premium-photo/captivating-illustration-sublime-wilderness-with-detailed-skies_899449-259219.jpg?w=740",
+    //     "additional_info": "Capture the beauty of nature with scenic landscapes depicted on canvas, from majestic mountains to serene forests."
+    //   },
+    //   {
+    //     "subcategory_name": "Portrait Drawing",
+    //     "image_url": "https://img.freepik.com/premium-photo/fashion-beautiful-black-asian-girl-model-with-cottagecore-dress_962764-159088.jpg?w=740",
+    //     "additional_info": "Explore the art of portraiture with detailed sketches and vibrant portraits, capturing the essence and emotion of individuals."
+    //   },
+    //   {
+    //     "subcategory_name": "Watercolour Painting",
+    //     "image_url": "https://img.freepik.com/free-vector/hand-draw-spring-landscape-scene-watercolor-background_1035-23914.jpg?t=st=1714398481~exp=1714402081~hmac=b3212631a61ce7bf279daea7cfeb55ac37a943112155c9a0fc91ae92a32084b6&w=740",
+    //     "additional_info": "Dive into the fluid world of watercolours, where delicate florals and expressive animal portraits come to life with vibrant hues and soft washes."
+    //   },
+    //   {
+    //     "subcategory_name": "Oil Painting",
+    //     "image_url": "https://img.freepik.com/premium-photo/painting-boat-that-is-painted-with-blue-sky-words-word-side_546042-528.jpg?w=740",
+    //     "additional_info": "Experience the richness of oil paints as artists create realistic portraits and abstract compositions, exploring texture, depth, and color."
+    //   },
+    //   {
+    //     "subcategory_name": "Charcoal Sketching",
+    //     "image_url": "https://img.freepik.com/free-photo/drawings-about-legal-profession_23-2151190652.jpg?t=st=1714398800~exp=1714402400~hmac=8a724a9d41a927e4b45927948069b167caf1b32b94e0040344cd5fe06ae3b237&w=740",
+    //     "additional_info": "Discover the bold contrasts and expressive lines of charcoal sketches, capturing the human form and architectural details with dramatic flair."
+    //   },
+    //   {
+    //     "subcategory_name": "Cartoon Drawing",
+    //     "image_url": "https://img.freepik.com/premium-photo/puppy-with-heart-his-chest_582637-10902.jpg?w=740",
+    //     "additional_info": "Step into the whimsical world of cartoons and comics, where superheroes soar and characters come to life in vibrant panels and dynamic designs."
+    //   }
+    // ]
+    // const result = await catagories.insertMany(data);
+    // console.log(`${result.insertedCount} documents inserted.`);

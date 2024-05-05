@@ -1,0 +1,110 @@
+[
+  {
+    "image": "https://img.freepik.com/premium-photo/painting-mountain-lake-with-mountain-background_327072-11634.jpg?w=740",
+    "itemName": "Mountain View Canvas",
+    "subcategoryName": "Landscape Painting",
+    "description": "A stunning landscape painting capturing the beauty of mountains.",
+    "price": 99.99,
+    "rating": 4.5,
+    "customization": "no",
+    "processingTime": "1-2 weeks",
+    "stockStatus": "In stock"
+  },
+  {
+    "image": "https://example.com/forest_landscape_painting.jpg",
+    "itemName": "Forest Landscape Painting",
+    "subcategoryName": "Landscape Painting",
+    "description": "A serene painting depicting a lush forest landscape.",
+    "price": 79.99,
+    "rating": 4.2,
+    "customization": "yes",
+    "processingTime": "2-3 weeks",
+    "stockStatus": "Made to Order"
+  },
+  {
+    "image": "https://example.com/pencil_sketch_portrait.jpg",
+    "itemName": "Pencil Sketch Portrait",
+    "subcategoryName": "Portrait Drawing",
+    "description": "A lifelike portrait drawn with pencil, capturing intricate details.",
+    "price": 149.99,
+    "rating": 4.8,
+    "customization": "yes",
+    "processingTime": "2-4 weeks",
+    "stockStatus": "Made to Order"
+  },
+  {
+    "image": "https://example.com/ink_outline_portrait.jpg",
+    "itemName": "Ink Outline Portrait",
+    "subcategoryName": "Portrait Drawing",
+    "description": "A bold and striking portrait outlined with ink.",
+    "price": 129.99,
+    "rating": 4.6,
+    "customization": "yes",
+    "processingTime": "2-3 weeks",
+    "stockStatus": "Made to Order"
+  },
+  {
+    "image": "https://example.com/acrylic_portrait_canvas.jpg",
+    "itemName": "Acrylic Portrait Canvas",
+    "subcategoryName": "Portrait Drawing",
+    "description": "A vibrant portrait painted with acrylics on canvas.",
+    "price": 199.99,
+    "rating": 4.9,
+    "customization": "yes",
+    "processingTime": "3-5 weeks",
+    "stockStatus": "Made to Order"
+  },
+  {
+    "image": "https://example.com/floral_watercolor_art.jpg",
+    "itemName": "Floral Watercolor Art",
+    "subcategoryName": "Watercolour Painting",
+    "description": "A delicate watercolor painting featuring colorful flowers.",
+    "price": 59.99,
+    "rating": 4.4,
+    "customization": "no",
+    "processingTime": "1-2 weeks",
+    "stockStatus": "In stock"
+  }
+]
+
+[
+  {
+    "image": "https://example.com/realistic_oil_portrait.jpg",
+    "itemName": "Realistic Oil Portrait",
+    "subcategoryName": "Oil Painting",
+    "description": "A lifelike portrait painted with oil colors, capturing intricate details and depth.",
+    "price": 249.99,
+    "rating": 4.7,
+    "customization": "yes",
+    "processingTime": "4-6 weeks",
+    "stockStatus": "Made to Order"
+  },
+  {
+    "image": "https://example.com/abstract_oil_painting.jpg",
+    "itemName": "Abstract Oil Painting",
+    "subcategoryName": "Oil Painting",
+    "description": "A contemporary abstract painting created with bold strokes and vibrant colors.",
+    "price": 179.99,
+    "rating": 4.3,
+    "customization": "yes",
+    "processingTime": "3-5 weeks",
+    "stockStatus": "Made to Order"
+  },
+  {
+    "image": "https://example.com/figure_charcoal_sketch.jpg",
+    "itemName": "Figure Charcoal Sketch",
+    "subcategoryName": "Charcoal Sketching",
+    "description": "A dynamic charcoal sketch capturing the essence of a human figure.",
+    "price": 89.99,
+    "rating": 4.6,
+    "customization": "no",
+    "processingTime": "1-2 weeks",
+    "stockStatus": "In stock"
+  }
+]
+const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when route changes
+  }, [pathname]);
+
